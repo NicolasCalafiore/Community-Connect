@@ -1,0 +1,137 @@
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.io.*;
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat ;
+import java.io.BufferedReader;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.IOException; import java.nio.file.Files; import java.nio.file.Paths; import java.util.List; import java.util.stream.Collectors; import java.util.stream.Stream;
+
+
+
+
+public class viewTags{
+  
+  
+  
+  JFrame frame;
+  JTextArea tagTextArea;
+  
+  JScrollPane tagTextAreaScroll;
+  JLabel mainImage;
+  
+  
+  int y;
+    public double viewTags(){
+      
+             JFrame frame = new JFrame("Test");
+       frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+       frame.setLayout(null);
+       frame.setSize(750, 500);
+       frame.setResizable(false);
+       frame.setVisible(true);
+       frame.setTitle("B:F A.I.D.S Tag Overview Window (BFAIDSTOW)");   
+      
+      
+ 
+        
+        
+      tagTextArea = new JTextArea();
+      frame.add(tagTextArea);
+      tagTextArea.setBounds(30, 100, 680, 350);
+      tagTextArea.setEditable(false);
+      
+      
+   
+           tagTextAreaScroll = new JScrollPane (tagTextArea);
+        frame.add(tagTextAreaScroll);
+        tagTextAreaScroll.setBounds(30, 100, 680, 350);
+        tagTextAreaScroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS); 
+      
+             
+          mainImage = new JLabel ();
+    mainImage.setIcon(new ImageIcon("res/20190302162016_1.JPG"));
+    frame.add(mainImage);
+    mainImage.setBounds( 1, 1, 750, 500);
+    
+      
+      
+      try{
+      
+      try (BufferedReader br = new BufferedReader(new FileReader("Sync/1afe.txt"))) {
+   String line = null;
+   int color = 0;
+   while ((line = br.readLine()) != null) {
+       System.out.println(line);
+       
+       
+       tagTextArea.append(line + "\n");
+       tagTextArea.append("------------------------------------------------------------------------------------------------------------------------------------------------------------------------" + "\n");
+          
+      tagTextArea.setFont(new Font("Arial", Font.BOLD, 12));
+  
+   }
+}
+      
+      }catch(Exception LOL){
+        System.out.println(" 123");
+       System.exit(0); 
+      }
+      
+
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      return y;
+    }
+}

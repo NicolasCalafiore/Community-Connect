@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" main="badFragDatabase3" manifest="" root="" work="">
+    <createjar file="BadFrag AIDS" flags="12"/>
+    <source>
+      <file active="true" name="badFragDatabase3.java" package="" timestamp="10-Mar-2019 13:33:27">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="viewRecords.java" package="" timestamp="13-Mar-2019 18:10:46">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="viewTags.java" package="" timestamp="13-Mar-2019 18:10:46">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="addMemberWindow.java" package="" timestamp="13-Mar-2019 21:06:18">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="addRecord.java" package="" timestamp="13-Mar-2019 21:18:22">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

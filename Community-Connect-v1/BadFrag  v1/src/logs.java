@@ -1,0 +1,130 @@
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.io.*;
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat ;
+import java.io.BufferedReader;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.IOException; import java.nio.file.Files; import java.nio.file.Paths; import java.util.List; import java.util.stream.Collectors; import java.util.stream.Stream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class logs{
+   JTextArea log;
+   JButton clear;
+  int y;
+    JScrollPane scroll;
+public double logs(){
+
+  
+  
+              JFrame frame = new JFrame("Test");
+       frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+       frame.setLayout(null);
+       frame.setSize(500, 200);
+       frame.setResizable(false);
+       frame.setVisible(true);
+       frame.setTitle("B:F A.I.D.S Logs (BFAIDSL)");  
+       
+        clear = new JButton("Clear");
+    frame.add(clear);
+    clear.setBounds(400, 10, 75, 25);
+    
+      log = new JTextArea ();
+       frame.add(log);
+       log.setBounds(0, 0, 500, 210);
+         log.setEditable(false);
+       
+             scroll = new JScrollPane (log);
+        frame.add(scroll);
+        scroll.setBounds(0, 0, 500, 200);
+        scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        
+        
+   
+       
+     
+       
+       
+         try{
+      
+      try (BufferedReader br = new BufferedReader(new FileReader("Sync/logs.txt"))) {
+   String line = null;
+   
+   while ((line = br.readLine()) != null) {
+       System.out.println(line);
+       
+       
+       log.append(line + "\n");
+    
+          
+      log.setFont(new Font("Arial", Font.BOLD, 12));
+  
+   }
+}
+      
+      }catch(Exception LOL){
+        System.out.println(" 123");
+       System.exit(0); 
+      }
+         log.append("\n" + " ");
+       event Action = new event();
+clear.addActionListener(Action);
+       
+       
+  
+  return y;
+}
+
+
+        public class event implements ActionListener { //_________________________________
+         
+    public void actionPerformed(ActionEvent Action){
+       File file = new File("Sync/logs.txt");
+      try{
+      FileWriter fw = new FileWriter(file);
+      PrintWriter pw = new PrintWriter(fw);
+      pw.println("Log was cleared");
+      pw.close();
+      
+      }
+      catch(Exception asfadfd){
+       System.out.println("error"); 
+      }
+      
+      log.setText("");
+      
+      
+      
+      
+      
+      
+      
+      
+    
+      
+    }
+        }
+      
+
+
+
+
+
+
+    }

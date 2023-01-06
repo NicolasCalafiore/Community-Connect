@@ -1,0 +1,2 @@
+001 Name
+202 Starting rank

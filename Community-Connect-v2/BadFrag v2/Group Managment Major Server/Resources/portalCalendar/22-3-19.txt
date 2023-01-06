@@ -1,0 +1,2 @@
+eventName: Rerelease
+RereleaseInfo: Rerelease of G-7

@@ -1,0 +1,4 @@
+loggedWarning
+loggedNote
+loggedAbsence
+loggedAbsence

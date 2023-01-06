@@ -1,0 +1,10 @@
+presetRank: Rank 1
+presetRank: Rank 2
+presetRank: Rank 3
+presetRank: Rank 4
+presetRole: Role 1
+presetRole: Role 2
+presetRole: Role 3
+MIPcalendarFunction true
+
+

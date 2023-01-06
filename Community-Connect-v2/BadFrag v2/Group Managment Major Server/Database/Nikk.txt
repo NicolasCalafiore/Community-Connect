@@ -1,0 +1,37 @@
+NameID: Nikk
+RankID: Rank 1
+DateID: 2/19/22
+RoleID: Role 1
+NIKKITLINK: Nikk
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22
+loggedAbsence: EVENT1
+loggedAbsenceDate: 02/19/22
+loggedNote: Excused: EVENT1
+loggedNoteDate: 02/19/22

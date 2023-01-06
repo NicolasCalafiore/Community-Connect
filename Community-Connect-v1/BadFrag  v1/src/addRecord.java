@@ -1,0 +1,394 @@
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.io.*;
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat ;
+import java.io.BufferedReader;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.IOException; import java.nio.file.Files; import java.nio.file.Paths; import java.util.List; import java.util.stream.Collectors; import java.util.stream.Stream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+//DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
+ //Date date = new Date();
+// System.out.println(dateFormat.format(date));
+
+
+public class addRecord{
+  JLabel tagText;
+  JTextField tagTextField;
+  int x;
+  JButton strike;
+  JButton recognition;
+  JButton ra;
+  JButton rank;
+  JLabel mainImage;
+  JLabel help;
+  JLabel recogName;
+  JLabel recogStructure;
+  JTextField info;
+  JLabel recoredText;
+  JButton finalize;
+   int lol = 0;
+   public double addRecord(){
+       JFrame frame = new JFrame("Test");
+       frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+       frame.setLayout(null);
+       frame.setSize(750, 500);
+       frame.setResizable(false);
+       frame.setVisible(true);
+       frame.setTitle("B:F A.I.D.S New Data Input Window (BFAIDSNDIW)");   
+       
+               recoredText = new JLabel ("Input recored to member file");
+          frame.add(recoredText);
+          recoredText.setBounds(225, 400, 400, 100);
+       recoredText.setFont(new Font("Arial", Font.BOLD, 20));
+         recoredText.setForeground(Color.RED);   
+         recoredText.setVisible(false);
+       
+       recogName = new JLabel ("Pilot Ishi");
+       frame.add(recogName);
+       recogName.setBounds(480, 10, 250, 25);
+         recogName.setForeground(Color.BLUE);
+         
+       int s = 60;
+       int si = 10;
+         
+       recogStructure = new JLabel ("Takistan,                  picking up fallen soldiers for backup");
+       frame.add(recogStructure);
+       recogStructure.setBounds(425, 10, 350, 25);
+       
+       strike = new JButton("Strike");
+       frame.add(strike);
+       strike.setBounds(10,50,100 +si,150);
+       
+       recognition = new JButton("Recognition");
+       frame.add(recognition);
+       recognition.setBounds(150 + s,50,100+si,150);
+       
+       ra = new JButton("<HTML> Registered <br> Absence <HTML>");
+       frame.add(ra);
+       ra.setBounds(290+ s+ s,50,100+si,150);
+       
+       rank = new JButton("Rank");
+       frame.add(rank);
+       rank.setBounds(430+ s+ s+ s,50,100+si,150);
+       
+       help = new JLabel ("Insert what will be shown in the above box. Press Enter and the contents inside this field will be applied to the members record");
+       frame.add(help);
+       help.setBounds(15, 325, 700, 100);
+       help.setVisible(false);
+        help.setFont(new Font("Arial", Font.BOLD, 10));
+        help.setForeground(Color.RED);
+       
+       info = new JTextField();
+       frame.add(info);
+      info.setBounds(15, 250, 700, 100);
+       info.setVisible(false);
+       
+       
+       
+       strike.setVisible(false);
+        recognition.setVisible(false);
+         ra.setVisible(false);
+          rank.setVisible(false);
+       
+        
+    
+      tagText = new JLabel ("Tag # :");
+      frame.add(tagText);
+      tagText.setBounds(10, 10, 100, 20);
+      tagText.setForeground(Color.BLACK);
+      tagText.setFont(new Font("Arial", Font.BOLD, 18));
+      
+       tagTextField = new JTextField (3);
+       frame.add(tagTextField);
+       tagTextField.setBounds(80, 10, 100, 20);
+       
+       
+       finalize = new JButton("Finalize");
+       frame.add(finalize);
+       finalize.setBounds(375, 250, 100, 100);
+       finalize.setVisible(false);
+       
+  
+       
+       
+      mainImage = new JLabel ();
+    mainImage.setIcon(new ImageIcon("res/adsw.PNG"));
+    frame.add(mainImage);
+    mainImage.setBounds( -200, 1, 2000, 600);
+       
+       
+       
+       
+       
+       
+       
+           tagTextField.addActionListener(new ActionListener() {
+
+  public void actionPerformed(ActionEvent e) {
+    
+     strike.setVisible(true);
+        recognition.setVisible(true);
+         ra.setVisible(true);
+          rank.setVisible(true);
+          
+  }
+           });
+   
+       
+       
+         
+event Action = new event();
+       strike.addActionListener(Action);
+recognition.addActionListener(Action);
+ra.addActionListener(Action);
+rank.addActionListener(Action);
+       
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+     
+     
+     return x;
+   }
+   
+   public class event implements ActionListener { //_________________________________
+         
+    public void actionPerformed(ActionEvent Action){
+     
+      String member = tagTextField.getText();
+       File file = new File("Sync/" + member + ".0.txt");
+       try{
+         
+         
+         
+         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
+ Date date = new Date();
+ System.out.println(dateFormat.format(date));
+                  File file1 = new File("Sync/logs.txt");
+    try{
+           FileWriter fw1 = new FileWriter(file1, true);
+        PrintWriter pw1 = new PrintWriter(fw1);
+        pw1.println("file " + member + " was edited " + (dateFormat.format(date)) );
+        System.out.println(member);
+        pw1.close();
+    }
+    catch(Exception wadsd){
+     System.out.println("LOG"); 
+    }
+       
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      FileWriter fw = new FileWriter(file, true);
+        PrintWriter pw = new PrintWriter(fw);
+      
+      
+        if(Action.getSource()== strike){
+           lol = 1;
+       }
+        if(Action.getSource()== ra){
+           lol = 2;
+       }
+        if(Action.getSource()== recognition){
+           lol = 3;
+       }
+        if(Action.getSource()== rank){
+           lol = 4;
+       }
+        
+        
+        
+       
+       if(Action.getSource() == strike || Action.getSource() == recognition  || Action.getSource() == ra || Action.getSource() == rank){
+         help.setVisible(true);
+         info.setVisible(true);
+       }
+       
+       
+       info.addActionListener( new ActionListener()
+{
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        System.out.println("Do Something Clicked");
+    
+    
+    String input = info.getText();
+     
+       
+       if(lol == 1){
+System.out.println("Strike");
+
+
+pw.println(" ");
+        pw.println("111 " + input);
+        System.out.println("printed " + input);
+       
+       }
+        if(lol == 2){
+          System.out.println("ra");
+          pw.println(" ");
+           pw.println("433 " + input);
+           System.out.println("printed " + input);
+       }
+         if(lol == 3){
+           System.out.println("recognition");
+           pw.println(" ");
+            pw.println("999 " + input);
+            System.out.println("printed " + input);
+       }
+          if(lol == 4){
+
+ try {
+            Path path = Paths.get(member + ".0.txt");
+            Stream <String> lines = Files.lines(path);
+            List <String> replaced = lines.map(line -> line.replaceAll("202", "  ")).collect(Collectors.toList());
+            Files.write(path, replaced);
+            lines.close();
+            System.out.println("Find and Replace done!!!");
+        } catch (IOException eee) {
+            eee.printStackTrace();
+        }
+              
+            pw.println("");
+            pw.println("202 " + input);
+            System.out.println("printed " + input);
+           
+          
+   
+    
+            
+          
+
+
+            
+       }
+       
+      
+       
+      
+       pw.close();
+   recoredText.setVisible(true);
+   int delay = 1000;
+     ActionListener taskPerformer = new ActionListener() {
+       public void actionPerformed(ActionEvent evt) {
+           recoredText.setVisible(false);
+       }
+   };
+   new javax.swing.Timer(delay, taskPerformer).start();
+
+    
+    }
+    
+    
+});
+       
+       
+       
+ /*String input = info.getText();
+     
+       
+       if(lol == 1){
+System.out.println("Strike");
+
+
+pw.println(" ");
+        pw.println("111 " + input);
+        System.out.println("printed " + input);
+       
+       }
+        if(lol == 2){
+          System.out.println("ra");
+          pw.println(" ");
+           pw.println("433 " + input);
+           System.out.println("printed " + input);
+       }
+         if(lol == 3){
+           System.out.println("recognition");
+           pw.println(" ");
+            pw.println("999 " + input);
+            System.out.println("printed " + input);
+       }
+          if(lol == 4){
+            System.out.println("rank");
+            pw.println(" ");
+             input = ("202 " + input);
+             input.replaceAll("(?m)^file.*", "");
+             System.out.println("printed " + input);
+       }
+       
+      
+       
+      
+       pw.close();
+   */
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       }
+       catch(Exception OOO){
+        System.exit(0); 
+       }
+    
+    }
+    
+    
+   }
+   
+  
+  
+   
+   
+}

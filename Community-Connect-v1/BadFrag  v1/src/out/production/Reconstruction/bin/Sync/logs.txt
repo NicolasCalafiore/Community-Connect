@@ -1,0 +1,28 @@
+  
+            String afeNMN = nameString;
+            File file = new File("Sync/" + nameString + ".0.txt");
+            try{
+if(!file.exists()){
+  file.createNewFile();
+}else{
+   JOptionPane.showMessageDialog(null, 
+                              "Tag is already in use! This has caused critical errors in the code \n To prevent further negative consequences the window \n will be closed \n PLEASE RESTART B:F AIDS AND DONT USE THIS TAG ANYMORE", 
+                              "Tag in use", 
+                              JOptionPane.WARNING_MESSAGE);
+
+frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+  
+}
+
+ 
+
+ }
+ 
+ catch (Exception O){
+  System.exit(0); 
+ } Tommy's record was viewed 2019/03/22
+ Tommy's record was viewed 2019/03/22
+calafiores file was edited 2019/03/22
+ efdsf's record was viewed 2019/03/22
+NAME was added to the DB null
+NicolasA was added to the DB 2019/03/22

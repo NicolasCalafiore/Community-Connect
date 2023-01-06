@@ -1,0 +1,5 @@
+NIKKITUSER: Nikk
+NIKKITEMAIL: Nicolasacalafiore@gmail.com
+NIKKITPASSWORD: Caracas55
+NIKKITRegisteredUser: Nikk
+messages:0
