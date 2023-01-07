@@ -1,35 +1,54 @@
-A Group Management Program I have been working on and upgrading since 2018 during my time in Highschool
-Although the first version has never been released I have decided to slowly create better and better versions to improve my programming outside of university.
+# Community Connect
+## What the program is about (Version Independant)
+     Community Connect is a program I have developed since 2018. It is a program that can be used to register members to a community, keep track of their information, community polls, and plan events and activites. As the years passed I have used this program to give me a reason to study programming outside of academics. I hope to continue this program further as I continue to learn more.
 
-#TL;DR: Unfortunately both versions are unable to be ran on an external computer
+#### Created: Late 2019
 
-  - Unfortunately my programming practices were not good at the time so no comments nor runnable version is available due to how I decided how to structure the program       assets so a stand-alone runnable version is unavailable. Even when released as source code and opened in an IDE the way I imported external libraries leads to alot       of errors when opened on a different computer.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## About Version One
+ - Created Mid 2018 
+ - Java
+ - Swing (GUI)
  
- - Be sure to check out the screenshot files as they provide an opportunity to see what the program looked like.
+ - Manually add members
+ - Keep Tracks of absences, strikes , awards and notes
+ - Keeps track of a members role, rank and beggining date
+ - Used third-party software to sync the information of all members with each client that had this application
  
+ - First Program I Developed with a UI
+ - Unfortunately a standalone runnable application is unabled to be released due to how poorly I structured my project
+ - A Screenshots folder can be found to view what the program looked like
+ - Was originally built for an online gaming community I was apart of.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ## About Version Two
+ - Started Late 2020
+ - Incomplete & Abandoned
+ - Java
+ - Swing (GUI)
  
+ - Same functionaly of v1 plus:
+    - Calendar for community events
+    - Flexible Group Structure
+    - Inbox Messaging
+    - Polls
+ - A vastly improved UI
+ - A member portal that could be used by members to sign up independantly.
+ - Members could also view their information and interact with the community.
  
-#What is community connect?
-Community Connect was a program I had conceived of for an online community I was apart of to track members and their information. 
-
-In CCv1 You Could:
-  - Add Member
-  - Search Member Information
-  - Edit Member Information
+ - Alot of the logic was at one point working but either very sloppy or incomplete.
+ - I consider this project a success for UI improvement and Ideas but a failure for my application of the logic and systems.
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ## About Version Three
+  - Started Late 2022
+  - Active Development (As of Jan 2023)
+  - C#
+  - WPF
   
-In CCv2 I decided to add:
-  - A much improved UI design
-  - Events/Calendar                       || Designed and semi-functional
-  - Announcements/Notificaitons           || Designed and semi-functional
-  - Group Hierarchies                     || Designed and semi-functional
-  - Administrative Powers                 || Semi-Designed and not-functional
-  - A Member Portal                       || Designed and semi-functional
-
-Midway through CCv2 I instead decided the abandon the project to focus on my unviersity studies and to take time to fully learn Java that is why so much have already been designed in the UI but only semi-implemented in functional. 
-
-CCv3 I plan to:
-  - Develop using WPF in C#
-  - Develop an IOS app using Xamarin
-  - Implement much needed OOP principles (Inheritence, Objects, Improved Classes, Improvded Methods etc.)
-  - Implement much needed programming designs (Startegy, Command, Factory etc.)
-  - Create much more readable, commented code
+  - Same functionaly of v1 plus:
+    - IOS App Using Xamarin (WIP -> Low Priority)
+  - A cleaner, more alive, more modern and flexible UI (WIP)
+  - A more generic-platform program to allow more personalized customization community-wise
+  
+  - I am attempting to develop this program using what I have learned since 2018 to build upon the many areas of skills that I lacked
+  - Use of Design Principles, Utilizing more OOP fundamentals, Sticking to Single Reponsibility Principles and proper documentation.
+  
