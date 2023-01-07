@@ -34,6 +34,8 @@ Community Connect is a program I have developed since 2018. It is a program that
  - A vastly improved UI
  - A member portal that could be used by members to sign up independantly.
  - Members could also view their information and interact with the community.
+ - Unfortunately a standalone runnable application is unabled to be released due to how poorly I structured my project
+ - A Screenshots folder can be found to view what the program looked like
  
  - Alot of the logic was at one point working but either very sloppy or incomplete.
  - I consider this project a success for UI improvement and Ideas but a failure for my application of the logic and systems.
