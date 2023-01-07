@@ -54,4 +54,5 @@ Community Connect is a program I have developed since 2018. It is a program that
  
   - I am attempting to develop this program using what I have learned since 2018 to build upon the many areas of skills that I lacked
   - Use of Design Principles, Utilizing more OOP fundamentals, Sticking to Single Reponsibility Principles and proper documentation.
+  - This is a bigger program so I tend to develop this one slower so I could focus on other small projects that can allow me to learn specific concepts faster.
   
