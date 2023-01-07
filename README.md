@@ -40,7 +40,7 @@ Community Connect is a program I have developed since 2018. It is a program that
  - Alot of the logic was at one point working but either very sloppy or incomplete.
  - I consider this project a success for UI improvement and Ideas but a failure for my application of the logic and systems.
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
- ## About Version Three
+ ## About Version Three (WIP)
   - Started Late 2022
   - Active Development (As of Jan 2023)
   - C#
@@ -49,8 +49,9 @@ Community Connect is a program I have developed since 2018. It is a program that
   - Same functionaly of v1 plus:
     - IOS App Using Xamarin (WIP -> Low Priority)
   - A cleaner, more alive, more modern and flexible UI (WIP)
-  - A more generic-platform program to allow more personalized customization community-wise
-  
+  - A more generic-platform program to allow more personalized customization community-wise (WIP)
+  - Im sure i'll get more ideas along the way
+ 
   - I am attempting to develop this program using what I have learned since 2018 to build upon the many areas of skills that I lacked
   - Use of Design Principles, Utilizing more OOP fundamentals, Sticking to Single Reponsibility Principles and proper documentation.
   
