@@ -1,6 +1,6 @@
 # Community Connect
 ## What the program is about (Version Independant)
-     Community Connect is a program I have developed since 2018. It is a program that can be used to register members to a community, keep track of their information, community polls, and plan events and activites. As the years passed I have used this program to give me a reason to study programming outside of academics. I hope to continue this program further as I continue to learn more.
+Community Connect is a program I have developed since 2018. It is a program that can be used to register members to a community, keep track of their information, community polls, and plan events and activites. As the years passed I have used this program to give me a reason to study programming outside of academics. I hope to continue this program further as I continue to learn more.
 
 #### Created: Late 2019
 
