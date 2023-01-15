@@ -44,10 +44,8 @@ Community Connect is a program I have developed since 2018. It is a program that
   - Started Late 2022
   - Active Development (As of Jan 2023)
   - C#
-  - WPF
+  - WPF (Im am also considering .NET MAUI)
   
-  - Same functionaly of v1 plus:
-    - IOS App Using Xamarin (WIP -> Low Priority)
   - A cleaner, more alive, more modern and flexible UI (WIP)
   - A more generic-platform program to allow more personalized customization community-wise (WIP)
   - Im sure i'll get more ideas along the way
