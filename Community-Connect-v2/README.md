@@ -14,4 +14,4 @@ Notes:
 
 Date: circa. Mid 2021
 
-This project was created around 2021 and will not be updated. Instead a new version will be release separately as CCv3
+This project was created around 2021 and will not be returned to.
